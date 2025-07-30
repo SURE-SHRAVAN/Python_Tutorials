@@ -1,0 +1,6 @@
+launch.json
+.codegpt
+settings.json
+.vscode/
+*.code-workspace
+*.sublime-workspace

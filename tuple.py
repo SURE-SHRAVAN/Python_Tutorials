@@ -1,1 +1,1 @@
-from Calc import *
+def fibannoci(n):

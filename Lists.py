@@ -27,3 +27,4 @@ print(friend)
 #to assign in alphabetical order
 friend.sort()
 print(friend)
+input(" What's your name: ")

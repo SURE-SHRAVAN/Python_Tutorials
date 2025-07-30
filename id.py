@@ -5,4 +5,7 @@ lst.append(v)
 for item in lst:
     for ele in item:
      print(ele , end = '')
-
+ 
+ 
+a = 100.09
+print(type(a))

@@ -22,6 +22,8 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
+    def delete
+
     def delete(self, data):
         if not self.head:
             return

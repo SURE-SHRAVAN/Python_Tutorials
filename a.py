@@ -1,18 +1,16 @@
-def open():
- a  = int(input("Enter your number: "))
- b =  int(input("Enter your number: "))
+import numpy as np
+import pandas as pd
 
- return a*b
-
-
-res = open()
-print(res)
-
-a = 10
-b = 20
-
-b = b+a
-a = b-a
-b = b-a
-
-print (a,b)
+def central_tendency_measures(data):
+    mean = np.mean(data)
+    median = np.median(data)
+    # Calculate mode using pandas
+    mode = pd.Series(data).mode()[0]
+    variance = np.var(data)
+    std_dev = np.std(data)
+    
+    print(f"Mean: {mean}")
+    print(f"Median: {median}")
+    print(f"Mode: {mode}")
+    print(f"Variance: {variance}")
+    print(f"Standard Deviation: {std_dev}")
